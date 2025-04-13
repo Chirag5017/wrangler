@@ -216,3 +216,6 @@ Cask is a trademark of Cask Data, Inc. All rights reserved.
 
 Apache, Apache HBase, and HBase are trademarks of The Apache Software Foundation. Used with
 permission. No endorsement by The Apache Software Foundation is implied by the use of these marks.
+##  New Capability: Parse Byte Sizes & Time Durations in Recipes
+Wrangler now comes with built-in parsing for values like KB, MB, ms, and s.
+Using the new aggregate-stats directive, you can easily process and compute totals or averages for data sizes and time intervals — no need for manual unit conversion steps.
